@@ -1,0 +1,60 @@
+nav{
+ 
+    display: flex;
+    justify-content: space-around;
+}
+.Navbar {
+    background-color: #ffffff00;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    height: 75px;
+    display: flex;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    border: solid 2px #ffffff14;
+    border-bottom: none;
+  }
+  
+.Navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.Navbar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.pages ul{
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.nav-link {
+    padding-inline: 15px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    margin-inline: 5px;
+    color: #777777;
+}
+/* Navbar.css */
+.nav-link:focus {
+    border: solid 1px  #16FF00;
+    color: #16FF00; 
+}
+.nav-link:hover {
+    border: solid 1px #15ff0000;
+    color: #16FF00;/* Change 'red' to the desired color */
+  }
+  
+ 

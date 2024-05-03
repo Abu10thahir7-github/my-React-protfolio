@@ -1,0 +1,64 @@
+.About{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.About h3{
+    color : #16FF00;
+}
+.About img{
+    width: 260px;
+    border-radius: 10px;
+}
+.About .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+.About p{
+    color: #a4a4a4;
+
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 17px;
+}
+hr{
+    color: #16FF00;
+    width: 90px;
+
+}
+.img-con{
+    padding-inline: 30px;
+    border-right: solid 1px gray;
+
+}
+.text button{
+    border-radius: 25px;
+    padding: 8px;
+    background: #7e7e7e33;
+    border: solid 1px gray;
+    color: #a0a0a0;
+}
+
+.about-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.educa-expe{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
