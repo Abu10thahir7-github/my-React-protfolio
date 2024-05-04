@@ -7,7 +7,7 @@ function Home() {
         <img src={mainbg} alt="" /> 
         <div className="text">
 
-         <h2>I am <span>Abu Thahir</span></h2>
+         <h2 className='animated-text'>I am <span  >Abu Thahir</span></h2>
             <p>Full Stack Web Developer</p>
         </div>
 
