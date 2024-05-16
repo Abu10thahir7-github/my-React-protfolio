@@ -49,7 +49,7 @@ function About() {
             <hr />
             <div className="educa-1">
               <p>hss keralasseri</p>
-              <p>predegree, Business/Commerce, General</p>
+              <p>predegree, <br /> Business/Commerce, <br /> General</p>
               <p>jun 2021 - Apr 2033</p>
             </div>
           </div>

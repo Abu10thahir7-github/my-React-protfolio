@@ -8,7 +8,7 @@ function Home() {
         <div className="text">
 
          <h2 className='animated-text'>I am <span  >Abu Thahir</span></h2>
-            <p>Full Stack Web Developer</p>
+            <p className='animated-text2' >Full Stack Web Developer</p>
         </div>
 
 

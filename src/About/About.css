@@ -62,3 +62,36 @@ hr{
     flex-direction: column;
     gap: 40px;
 }
+@media only screen and (max-width: 580px) {
+    /* Your CSS styles for smartphones here */
+
+    .About{
+        height: auto;
+        width: 100%;
+    }
+    .about-cont{
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .About .title{
+        margin-top: 30px;
+    }
+    .img-con{
+        border: 0px;
+    }
+    .educa-expe{
+        margin-top: 30px;
+    }
+  }
+  @media only screen and (max-width: 780px){
+       .about-cont{
+        flex-direction: column;
+
+       }
+       .educa-expe{
+        margin-top: 15px;
+        flex-direction: row;
+       }
+  } 

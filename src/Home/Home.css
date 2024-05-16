@@ -37,13 +37,14 @@
       font-weight: 400;
       font-style: normal;
     
+      
+    }
     
-  }
-
- 
-  @keyframes slideIn {
-    0% {
-      transform: translateY(-100%);
+    
+    @keyframes slideIn {
+      0% {
+        transform: translateY(-100%);
+        color: #15ff0000;
     }
     100% {
       transform: translateY(0);
@@ -52,6 +53,31 @@
   
   /* Apply the animation to the text */
   .animated-text {
-    font-size: 3em;
+  
     animation: slideIn 1s ease-out;
+  }
+
+
+  @keyframes slideUp {
+    0% {
+      transform: translateX(-100%);
+   
+      color: #15ff0000;
+    }
+    50%{
+
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .animated-text2 {
+  
+    animation: slideUp 1s ease-out;
+  }
+
+  @media only screen and (max-width: 580px) {
+    .text{
+      width: 86%;
+    }
   }

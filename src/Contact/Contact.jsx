@@ -14,7 +14,7 @@ function Contact() {
 
        <div className="address">
         <h4>Address</h4>
-        <hr />
+        <hr className='hr-con' />
         <ul>
           <li>Kizhakkekara House, Keralassery, <br /> Palakkad, Kerala - 678641</li>
           
@@ -31,7 +31,7 @@ function Contact() {
        </div> 
        <div className="massage">
   <h4>Massage</h4>
-  <hr />
+  <hr className='hr-con' />
   <p>Any query? Feel free to ask. I'll reply shortly.</p>
   <div className="grid-container">
     <input type="text" placeholder="name" className="grid-item" />

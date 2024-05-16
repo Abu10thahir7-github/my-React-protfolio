@@ -1,7 +1,7 @@
 
 .Contact{
     width: 100%;
-    height: 90vh;
+    height: auto;
     color: rgb(115, 116, 118);
     display: flex;
     flex-direction: column;
@@ -98,4 +98,26 @@ ul{
 }
 .Contact h4{
     color: #16FF00;
+}
+@media only screen and (max-width: 580px) {
+  /* Your CSS styles for smartphones here */
+    .all-contant{
+      flex-direction: column;
+    }
+    .massage{
+      margin-top: 40px;
+    }
+    .Contact{
+      padding-block: 22px;
+      padding-bottom: 90px;
+    }
+    .address h4{
+      text-align: center;
+    }
+    .address hr{
+      width: 100%;
+    }
+    .massage hr{
+      width: 75%;
+    }
 }

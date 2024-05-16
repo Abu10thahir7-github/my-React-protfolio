@@ -29,3 +29,15 @@
     width: 60px;
     height: 60px;
 }
+@media only screen and (max-width: 580px) {
+    /* Your CSS styles for smartphones here */
+    .Skills{
+        height: auto;
+        padding-block: 40px;
+    flex-direction: column;
+
+    }
+    .skill-contain{
+        flex-direction: column;
+    }
+  }
