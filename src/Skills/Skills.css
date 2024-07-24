@@ -1,28 +1,33 @@
 .Skills{
     color: white;
-    height: 50vh;
+    height: 75vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
 
 }
 
 .skill-contain{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 30px;
+    
 }
 .skill{
-    padding: 15px;
+    padding: 10px;
+    margin: 7px;
     border: solid 1px gray;
     border-radius: 15px;
-     transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 13px;
+    color: #dcdcdc4d;
 }
 .skill:hover{
     border: solid 1px lawngreen;
+    color: lawngreen;
     scale: 1.1;
 }
 .skill-contain img{

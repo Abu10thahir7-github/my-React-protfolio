@@ -7,6 +7,7 @@
     flex-direction: column;
     gap: 60px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .Contact .social ul{
     display: flex;
@@ -120,4 +121,12 @@ ul{
     .massage hr{
       width: 75%;
     }
+}
+
+.massage p{
+  font-size: 13px;
+  margin-bottom: 10px !important;
+}
+a{
+  color: gray;
 }

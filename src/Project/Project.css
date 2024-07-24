@@ -18,12 +18,15 @@ i::before{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 55px;
+
 }
 
 .proj {
   margin: 10px;
   position: relative;
   overflow: hidden;
+   border-radius: 20px;
 }
 
 .proj img {
@@ -57,7 +60,7 @@ i::before{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-bottom: 55PX;
 }
 .project .btn button{
   padding: 7px;

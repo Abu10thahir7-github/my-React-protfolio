@@ -55,6 +55,22 @@ ul{
 .nav-link:hover {
     border: solid 1px #15ff0000;
     color: #16FF00;/* Change 'red' to the desired color */
-  }
+}
   
- 
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff38;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+@media (max-width: 768px) { /* Adjust the max-width as per your requirement */
+    .navbar-nav .nav-item.skills-nav-link .nav-link {
+        transition: color 0.3s ease-in-out;
+        color: black; /* default color for Skills link on smaller screens */
+    }
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #16FF00;
+    border: solid 1px  #16FF00;
+}

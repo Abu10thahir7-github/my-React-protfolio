@@ -16,32 +16,91 @@ function Skills() {
 
 
       <div className="skill-contain">
-        <div className="skill">
-           
-            <p>HTML</p>
-        </div>
+        <div className="frontend">
+          <h5>FrontEnd</h5>
+  
         <div className="skill">
             
-            <p>CSS</p>
+           <p>HTML</p>
+       </div>
+       <div className="skill">
+           
+           <p>CSS</p>
+       </div>
+       <div className="skill">
+           
+           <p>React JS</p>
+       </div>
+       <div className="skill">
+           
+           <p>Bootstrap</p>
+       </div>
+       <div className="skill">
+           
+           <p>Figma</p>
+       </div>
+        </div>
+        
+      <div className="backend">
+    <h5>BackEnd</h5>
+        <div className="skill">
+ 
+            <p>Node JS</p>
         </div>
         <div className="skill">
  
-            <p>JS</p>
+            <p>Express JS</p>
         </div>
      
+      </div>
+      <div className="program-language">
+        <h6>Programming Languages</h6>
         <div className="skill">
-           
-            <p>REACT JS</p>
+          
+            <p>JavaScript</p>
+        </div>
+        <div className="skill">
+          
+            <p>C/C++</p>
         </div>
         <div className="skill">
           
             <p>JAVA</p>
         </div>
+        
+      </div>
+       <div className="version-controll">
+        <h6>Version Controller</h6>
         <div className="skill">
            
-            <p>GIT</p>
+            <p>Git Hub</p>
+        </div>
+        <div className="skill">
+           
+            <p>Git Bucket</p>
         </div>
         
+
+       </div>
+       <div className="database">
+        
+        <h6>Database</h6>
+        <div className="skill">
+           
+            <p>MongoDB</p>
+        </div>
+        <div className="skill">
+           
+            <p>Mongoose</p>
+        </div>
+        
+        <div className="skill">
+           
+            <p>Firebase</p>
+        </div>
+        
+
+       </div>
       </div>
     </div>
   )

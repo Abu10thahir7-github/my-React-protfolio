@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './Navbar.css';
 import logo from './logo.jpg';
 
@@ -7,7 +8,6 @@ function Navbar() {
     <div className='Navbar'>
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container">
-        
           <button
             className="navbar-toggler"
             type="button"
@@ -19,32 +19,32 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse  justify-content-center" id="navbarNav">
+          <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="home" smooth={true} duration={200}>
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="About">
+                <Link className="nav-link" to="about" smooth={true} duration={200}>
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="skills" smooth={true} duration={200}>
                   Skills
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="project" smooth={true} duration={200}>
                   Project
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="contact" smooth={true} duration={200}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

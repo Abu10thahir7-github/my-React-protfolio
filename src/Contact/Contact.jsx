@@ -3,6 +3,7 @@ import "./Contact.css"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 function Contact() {
   return (
@@ -22,10 +23,29 @@ function Contact() {
        </div>
        <div className="social">
         <ul>
-          <li><InstagramIcon className='icon'/></li>
-          <li><FacebookIcon className='icon'/></li>
-          <li><GitHubIcon className='icon'/></li>
-          <li><WhatsAppIcon className='icon'/></li>
+          <li>
+            <a href="https://www.instagram.com/_abu.abo/?igsh=MW1mdndseW81MmNidA%3D%3D">
+
+            <InstagramIcon className='icon'/>
+            </a>
+            </li>
+          <li>
+            <a href="https://www.facebook.com/abu.abuthahir.37819?bextid=ZbWKwL">
+
+            <FacebookIcon className='icon'/>
+            </a>
+            </li>
+          <li>
+            <a href="https://github.com/Abu10thahir7-github">
+
+            <GitHubIcon className='icon'/>
+            </a>
+            </li>
+          <li> <a href="http://api.whatsapp.com/send?phone=+918921966289&text=♥𝑯𝑰_𝑩𝑹𝑶𝑯__🎗">
+            <WhatsAppIcon className='icon'/>
+            </a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/abu-thahir-361092298/"><LinkedInIcon className='icon'/></a></li>
         </ul>
        </div>
        </div> 
